@@ -11,3 +11,7 @@ bash start.sh
 ```
 pip -r requirements.txt
 ```
+查看是否有GPU
+```
+nvidia-smi
+```
