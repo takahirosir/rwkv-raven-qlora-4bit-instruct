@@ -1,6 +1,7 @@
 FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
 RUN apt update -y
 RUN apt install -y git
+# RUN apt install nvidia-cuda-toolkit
 # RUN pip install --upgrade pip
 RUN pip install -U git+https://github.com/huggingface/transformers.git 
 RUN pip install -U git+https://github.com/huggingface/peft.git
